@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Css Restaurant</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <style>
+      /* Logo Text */
+      #LogoH1 {
+        font-family: "Baloo Bhai 2", cursive;
+        text-align: right;
+        font-size: 30px;
+        padding: 2px 70px;
+        margin: 34px 55px;
+        color: white;
+      }
+      /* Entire Body */
+      body {
+        font-family: "Baloo Bhai 2", cursive;
+
+        background-color: burlywood;
+        background: url("Food Background.jpg");
+        background-repeat: no-repeat;
+        background-size: 1400px 600px;
+        position: sticky;
+        z-index: 50;
+      }
+
+      /* 2nd Block */
+      #box1 {
+        width: 1350px;
+        height: 238px;
+        position: absolute;
+        top: 570px;
+        z-index: 5;
+        background-color: burlywood;
+        left: -9px;
+      }
+
+      /* 3rd Block */
+      #box2 {
+        width: 1350px;
+        height: 158px;
+        position: absolute;
+        top: 809px;
+        z-index: 5;
+        background-color: rgb(0, 0, 0);
+        left: -10px;
+      }
+
+      /* Left side header  */
+      .left {
+        position: fixed;
+        z-index: 15;
+      }
+
+      /* Center Of Header */
+      .center {
+        position: fixed;
+        color: white;
+        display: block;
+        margin: 21px 441px;
+        width: 33%;
+        z-index: 10;
+      }
+      /* Right part of Header */
+      .right {
+        position: fixed;
+        border-radius: 10px;
+        right: 34px;
+        top: 40px;
+        display: inline-block;
+        z-index: 20;
+        width: 322px;
+      }
+
+      /* Logo Image */
+      .left img {
+        width: 139px;
+        position: fixed;
+        z-index: 15;
+        background: transparent;
+        margin: -112px 5px;
+        filter: invert();
+      }
+      /* Navigation Bar  */
+      .navbar {
+        font-family: "Baloo Bhai ";
+        z-index: 25;
+        position: sticky;
+        width: 460px;
+        border-radius: 50px;
+        padding: 6px 49px;
+        margin: 1px -66px;
+      }
+      /* Navigation Bar */
+      .navbar ul {
+        overflow: auto;
+        padding: 13px 0px;
+        margin: -2px 24px;
+        z-index: 50;
+      }
+      .navbar li {
+        font-family: "Baloo Bhai 2", cursive;
+
+        display: inline-block;
+        list-style: none;
+        padding: 4px 12px;
+        padding-top: 0px;
+        z-index: 50;
+      }
+      .navbar li a {
+        text-decoration: none;
+        padding: 3px 3px;
+        color: white;
+        z-index: 50;
+      }
+      .navbar li a:hover {
+        color: rgb(255, 123, 0);
+      }
+      .navbar li a:hover,
+      navbar li a:active {
+        text-decoration: underline;
+      }
+
+      /* Left Header BUtton */
+      .btn {
+        font-family: "Baloo Bhai 2", cursive;
+        margin: 0px auto;
+        background-color: #53db31;
+        color: white;
+        padding: 5px 31px;
+        border-radius: 14px;
+        font-size: 15px;
+        cursor: pointer;
+      }
+      .btn:hover {
+        color: black;
+      }
+      .container2 {
+        padding: 41px 66px;
+        width: 60%;
+        border-radius: 2px;
+        position: relative;
+        top: 38px;
+        left: 182px;
+        text-align: center;
+      }
+
+      /* Center Image Heading */
+      #Head1 {
+        color: rgb(255, 123, 0);
+      }
+      #Head2 {
+        color: #53db31;
+      }
+      .para1 {
+        color: white;
+      }
+
+      .btun {
+        margin: 0px auto;
+        text-decoration: none;
+        border: 2px solid #53db31;
+        width: 145px;
+        padding: 9px 20px;
+        font-size: 15px;
+        background-color: #53db31;
+        border-radius: 22px;
+      }
+
+      .container3 {
+    position: relative;
+    top: 235px;
+    z-index: 5;
+}
+#para2 {
+    display: inline-block;
+    position: relative;
+    width: 33%;
+    text-align: left;
+    top: 8px;
+    z-index: 25;
+}
+
+#para3 {
+    display: block;
+    text-align: center;
+    padding: 69px 7px;
+    margin: -296px 431px;
+    width: 33%;
+    top: 250px;
+    position: absolute;
+}
+#para4 {
+    position: absolute;
+    display: inline-block;
+    text-align: left;
+    padding: 65px 0px;
+    margin: -301px 49px;
+    width: 33%;
+    right: -51px;
+    top: 260px;
+
+}
+
+.abut {
+    color: white;
+    position: absolute;
+    top: 792px;
+    z-index: 30;
+    left: 600px;
+}
+.para5{
+  position: absolute;
+  color: white;
+  top: 848px;
+  z-index: 30;
+  text-align: center;
+}
+    </style>
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="container1">
+        <div class="Box" id="box1"></div>
+        <div class="Box" id="box2"></div>
+
+        <div class="left">
+          <h1 id="LogoH1">Food Buds</h1>
+          <img src="Logo.png" alt="Logo" />
+        </div>
+        <div class="center">
+          <nav class="navbar">
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Menu</a></li>
+              <li><a href="#">Events</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="right">
+          <button class="btn">Book Table</button>
+          <button class="btn">Home Delivery</button>
+        </div>
+      </div>
+    </header>
+    <div class="container2">
+      <h1 class="Up_Head" id="Head1">Healthy Food Comes from</h1>
+      <h1 class="Up_Head" id="Head2">Healthy Ingredients</h1>
+
+      <div class="para1">
+        <p>
+          Looking for fresh and tasty breakfast and lunches?At food Delivery,
+          you can order any kind of Food
+        </p>
+      </div>
+      <div class="para1">
+        <p>
+          from local restaurant at a reasonbale price without any extra changes
+        </p>
+      </div>
+      <button class="btun">Order Online</button>
+    </div>
+    <div class="container3">
+      <div class="paraX1">
+        <p class="paraX" id="para2">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias aspernatur eos ipsam pariatur perferendis nesciunt nihil distinctio magni quidem eaque commodi reprehenderit, neque facere rerum, placeat natus magnam at blanditiis.
+        </p>
+      </div>
+      <div class="paraX2">
+        <p class="paraX" id="para3">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste iusto, voluptate tenetur porro magni praesentium! Dolorem, numquam iste itaque et, iure laudantium non sunt, beatae unde laboriosam doloremque minus porro.
+        </p>
+      </div>
+      
+      <div class="paraX3">
+        <p class="paraX" id="para4">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci dolorem dolorum ipsa, blanditiis repudiandae ex officia. Cupiditate deserunt, blanditiis recusandae qui illum deleniti est et consequuntur minima omnis facere magni?
+        </p>
+      </div>
+      
+    </div>
+    <div class="container4">
+      <H1 class="abut">About</H1>
+      <p class="para5">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur saepe eveniet et possimus quaerat odit ratione, delectus accusantium veritatis eligendi est temporibus commodi sunt incidunt maxime esse iusto quo nam.
+      </p>
+    </div>
+  </body>
+</html>

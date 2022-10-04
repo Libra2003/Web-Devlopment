@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=g, initial-scale=1.0">
+    <title>Css Selectors</title>
+    <style>
+        h1{
+            text-align: center;
+            background-color: red;
+            font-weight: bold;
+        }
+        div p{
+            color: rgb(42, 165, 165);
+            background-color: navy;
+            font-weight: bold;
+        }
+        div>p{
+            background-color: lightblue;
+            color: white;
+        }
+        div+p{
+            color: peru;
+            background-color: blueviolet;
+        }
+    </style>
+</head>
+<body>
+    <h1>This is more on selectors</h1>
+    <div class="row">
+        <ul>
+            <li class="item"><p>This is another paragraph inside li</p></li>
+            <li>This will not get affected</li>
+        </ul>
+        <p>This is a paragraph</p>
+    </div>
+    <p>This is another paragpah</p>
+    
+</body>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Functions in javascript</title>
+</head>
+<body>
+    <div class="container">
+        This is a container
+    </div>
+    <script>
+        let name = "Zain";
+        let name1 = "Harry";
+        let name2 = "Tayyab";
+        let name3 = "Hadi";
+       
+        //Function with default value
+        let greetText = "Good Morning"
+        function greet1(name, greetText="Greetings from javascript"){
+            console.log(greetText +" "+name);
+
+            console.log(name+" is a good boy");
+
+        }
+        // greet1(name,greetText);
+        // greet1(name1,greetText);
+        // greet1(name2,greetText);
+        // greet1(name3);
+        //Simple Function
+        function greet(name){
+            console.log(name+" is a good boy");
+
+        }
+        // greet(name);
+        // greet(name1);
+        // greet(name2);
+        // greet(name3);
+        // console.log(name+" is a good boy");
+        // console.log(name1+" is a good boy");
+        // console.log(name2+" is a good boy");
+        // console.log(name3+" is a good boy");
+
+        //Function with return value
+        let a= 4, b= 5, c =6, d;
+        function sum(a,b,c){
+            let d = a+b+c;
+            return d;
+        }
+       let retrunvalue= sum(a,b,c);
+        console.log(retrunvalue);
+
+        
+    </script>
+    
+</body>
+</html>

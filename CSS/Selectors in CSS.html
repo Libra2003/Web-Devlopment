@@ -1,0 +1,51 @@
+<!-- We will see four types of CSS Selectors:
+
+CSS element Selector
+CSS id Selector
+CSS class Selector
+The CSS grouping Selector -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css Selectors</title>
+    <style>
+        /* element selectors */
+        p{
+            border: 2px solid aqua;
+        }
+        /* class selectors */
+        .redElement{
+            color: red;
+        }
+        .bgBlue{
+            background-color:aqua;
+        }
+
+        /* id selectors */
+        #firstpara{
+            color:yellowgreen;
+        }
+
+        /* group selectors */
+        footer, span{
+            border: 2px solid red;
+        }
+
+    </style>
+</head>
+<body>
+    <h3>Css Selectors</h3>
+    <p id = "firstpara">This is a simple paragpah to demonstrate css selectors</p>
+    <p id = "secondpara" class = "redElement bgBlue"> This is another paragpah to demonstrate css selectors</p>
+    <div>
+        <p>This is yet another simple paragraph inside div to demonstrate css selectors</p>
+        <span>this is span</span>
+ </div>
+
+ <footer>This is the footer</footer>
+
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz 1</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Quiz 1</h1>
+    </div>
+    <script>
+        function Comparision(num1,num2){
+            if(num1>num2){
+                console.log("First Number is greater then second number");
+
+            }
+            else if(num1<num2){
+                console.log("Second Number is greater then First number");
+
+            }
+            else{
+                console.log("Function will only accept numbers")
+            }
+        }
+        Comparision(5,3);
+        let number = new Array(1,2,45,4,5);
+        function LoopComparison(){
+            let i = 0;
+            let a = number[i];
+            for(i = 0;i<=5;i++){
+                    if(a<number[i+1]){
+                        a=number[i+1];
+                    
+                }
+                
+            }
+            console.log(a);
+
+        }
+        LoopComparison(number);
+
+    </script>
+</body>
+</html>

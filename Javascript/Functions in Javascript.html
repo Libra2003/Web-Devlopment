@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Functions in javascript</title>
+</head>
+<body>
+    <script>
+        var str = "This is a string"
+        console.log(str);
+        //Finding indexes of a string
+        var position = str.indexOf('is')
+        console.log(position)
+        position = str.lastIndexOf('is')
+        console.log(position)
+        //repalcing a string
+        var replaced = str.replace('string', 'Zain')
+        console.log(str)
+        console.log(replaced)
+        //Removing white spaces
+        var whitespace = "     this contains        whitespaces "
+        console.log(whitespace)
+        console.log(whitespace.trim())
+        //Substring from a string
+        var Substr = str.slice(1,7)
+        var substr = str.substring(1,7);
+        console.log(substr)
+        var substr1 = str.substr(1,7)
+        console.log(substr1)
+
+        //character string
+        var char2 = str.charAt(2)
+        console.log(char2)
+        var char1 = str.charCodeAt(5)
+        console.log(char1)
+
+    </script>
+</body>
+</html>

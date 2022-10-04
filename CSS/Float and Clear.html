@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Allignment</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            font-family: 'Open Sans', sans-serif;
+        }
+
+        .container{
+            width: 900px;
+            border: 3px solid purple;
+            margin: 33px auto;
+            background-color: rgb(200, 176, 154);
+
+        }
+        .item{
+            border: 3px solid grey;
+            margin: 12px 3px;
+            padding: 12px 3px;
+            background-color: rgb(250,226,205);
+
+        }
+        #fruit{
+            float: left;
+            width: 48%;
+        }
+        #computer{
+            float: right;
+            width: 48%;
+        }
+        #stationary{
+            /* float: left; */
+            width: 100%;
+            clear: both;
+        }
+        p,h3{
+            text-align: both;
+            text-align: left;
+            text-align: justify;
+        }
+        h1{
+            text-align: center;
+            width: 400;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to my store</h1>
+        <div id="fruit" class="item">
+            <h3>Fruits</h3>
+            <p id="firstpara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt aliquid pariatur, possimus ipsa fuga eius cumque aspernatur. Harum architecto est inventore. Velit harum nam placeat ut asperiores sequi eos nihil.</p>
+        </div>
+        <div id="computer" class="item">
+            <h3>Computers</h3>
+            <p id="computerpara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus quam quis impedit illum iure laborum repellendus placeat culpa iusto quisquam. Iure suscipit fugit voluptatem impedit reprehenderit, ab sed repudiandae accusantium!</p>
+        </div>
+        <div id="stationary" class="item">
+            <h3>Stationary</h3>
+            <p id="stationarypara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, saepe corrupti aliquam omnis beatae magnam praesentium pariatur, quod eligendi sit quia maiores dolorum sequi quidem inventore voluptas consequuntur, temporibus voluptatem.</p>
+
+        </div>
+    </div>
+    
+</body>
+</html>

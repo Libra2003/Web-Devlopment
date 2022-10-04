@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Box Shadow and Text Shadow</title>
+    <style>
+      .container {
+        display: flex;
+        justify-content: center;
+      }
+
+      .card {
+        /* border: 2px solid rgb(255, 0, 0); */
+        margin: 6px;
+        padding: 2px 6px;
+        background-color: burlywood;
+        /* box-shadow: offset-x offset-y color; */
+        /* box-shadow: offset-x offset-y blur-radius color; */
+        /* box-shadow: offset-x offset-y blur-radius spread-radius color; */
+
+        /* box-shadow: 10px 13px green; */
+        /* box-shadow: -10px -13px green; */
+        /* box-shadow: 7px 5px 10px green;
+    box-shadow: -7px -5px 10px green; */
+        /* box-shadow: -7px -5px 10px 34px green; */
+        /* box-shadow: -7px -5px 10px 34px rgba(71, 172, 172, 0.5); */
+        box-shadow: inset 3px 5px rgb(50, 180, 219);
+
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="card" id="card-1">
+        <h2>
+          card-1
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius quos
+            quod totam impedit delectus suscipit laboriosam nihil omnis
+            voluptate temporibus fugiat quas, expedita deserunt ea, libero optio
+            doloribus! A, pariatur.
+          </p>
+        </h2>
+      </div>
+      <div class="card" id="card-2">
+        <h2>
+          card-2
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius quos
+            quod totam impedit delectus suscipit laboriosam nihil omnis
+            voluptate temporibus fugiat quas, expedita deserunt ea, libero optio
+            doloribus! A, pariatur.
+          </p>
+        </h2>
+      </div>
+      <div class="card" id="card-3">
+        <h2>
+          card-3
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius quos
+            quod totam impedit delectus suscipit laboriosam nihil omnis
+            voluptate temporibus fugiat quas, expedita deserunt ea, libero optio
+            doloribus! A, pariatur.
+          </p>
+        </h2>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Before and After Pseudo Selectors</title>
+    <style>
+        body{
+            background-color: black;
+            color: white;
+            margin: 0px;
+            padding: 0px;
+        }
+        header::before{
+            background: url('Background.jpg')no-repeat center center/cover ;
+            content: "";
+            position: absolute;
+            width: 100vw;
+            height: 100vh;
+            z-index: -1;
+            top: 0px;
+            left: 0px;
+            opacity: 0.5;
+        }
+        .navigation{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+        }
+        li{
+            list-style: none;
+            padding: 9px 24px;
+        }
+
+        section {
+    display: flex;
+    flex-direction: column;
+    height: 214px;
+    margin: 42px 53px;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    font-size: 3rem;
+}
+
+p{
+    text-align: center;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <ul class="navigation">
+                <li class="item">Home</li>
+                <li class="item">About</li>
+                <li class="item">Serices</li>
+                <li class="item">Contact us</li>
+            </ul>
+        </nav>
+
+    </header>
+    <section>
+        <h1>Welecome to the coding world</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque facilis ipsa ratione architecto ad ea quod maxime dolores quisquam quae? Saepe illo eum expedita possimus consectetur minus autem magnam vel.</p>
+    </section>
+    <hr>
+</body>
+</html>
