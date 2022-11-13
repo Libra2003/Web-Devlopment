@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maniuplating the DOM</title>
+</head>
+<body>
+    <div id="main" class="container">
+        <ul id = "nav">
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact us</li>
+            <li>More about us</li>
+            <li>Services</li>
+        </ul>
+    </div>
+    <div class="container">
+        Another Container
+    </div>
+    <script>
+        //Get element by ID
+        let main = document.getElementById('main');
+        console.log(main);
+
+        //Get element by ID
+        let nav = document.getElementById('nav');
+        console.log(nav);
+
+        //Get element by Class
+        let container = document.getElementsByClassName('container');
+        console.log(container);
+
+        //It returns the first element of the class 
+        let sel = document.querySelector('.container');
+        console.log("Selector Returns ", sel);
+
+        //It returns the first element of the id 
+        let sel1 = document.querySelector('#nav');
+        console.log("Selector Returns", sel1);
+
+        //It returns the first element of the id 
+        let sel3 = document.querySelector('#nav>li');
+        console.log("Selector Returns", sel3);
+
+        //It returns the first element of the id 
+        let sel4 = document.querySelectorAll('#nav>li');
+        console.log("Selector Returns", sel4);
+
+        
+    </script>
+</body>
+</html>
