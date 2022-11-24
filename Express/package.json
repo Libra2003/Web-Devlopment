@@ -1,0 +1,14 @@
+{
+  "name": "frist_express",
+  "version": "1.0.0",
+  "description": "This is our first express package",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "zain",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
